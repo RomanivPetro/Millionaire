@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<ArrayOfQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Question>
+    <Question>Що появляється в домі під час сімейної сварки?</Question>
+    <Answers>
+      <Answer>Літаючі тарілки</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Снігова людина</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Барабашка</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Тунгуський метеорит</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Що кравець знімає із замовника?</Question>
+    <Answers>
+      <Answer>Мірку</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Марку</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Бурку</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Шкірку</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Що особливо турбує кожного культуриста?</Question>
+    <Answers>
+      <Answer>Множення</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Ділення</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Додавання</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Віднімання</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Як греки називають свою країну?</Question>
+    <Answers>
+      <Answer>Паллада</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Еллада</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Колхіада</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Іліада</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Що Лермонтов у вірші "Бородіно" назвав побитим?</Question>
+    <Answers>
+      <Answer>Полк французів</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Барабан</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Старий жарт</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Ківер</Answer>
+      <Res>true</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Що, згідно рецепту, потрібно поставити  всередину котлети по-київськи?</Question>
+    <Answers>
+      <Answer>Куряче серце</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Нирку москаля</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Вершкове масло</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Сало</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Дружину якого посла оспівав Олександр Городницький у своїй відомій пісні?</Question>
+    <Answers>
+      <Answer>Німецького</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Польського</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Французького</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Китайського</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>В яких спортивних змаганнях не використовується сітка?</Question>
+    <Answers>
+      <Answer>Баскетбол</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Регбі</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Бадмінтон</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Метання молота</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Чим на Русі займався золотар?</Question>
+    <Answers>
+      <Answer>Добував золото</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Кував зброю</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Скарбницею</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Чистив відхожі місця</Answer>
+      <Res>true</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Як називається метеоритний потік, який спостерігається щорічно в листопаді?</Question>
+    <Answers>
+      <Answer>Леоніди</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Максими</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Івани</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Гавриїли</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Як герой фільму "Білоруський вокзал" назвав свій батальйон?</Question>
+    <Answers>
+      <Answer>Непотоплюваний</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Непромокаючий</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Непереможний</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Неприступний</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>З чим схрестили персик, щоб получити нектарин?</Question>
+    <Answers>
+      <Answer>з яблуком</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>з сливою</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>з інжиром</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>ні з чим не схрещували</Answer>
+      <Res>true</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Який "танець" виконав Чарлі Чаплін в фільмі "Золота лихоманка"?</Question>
+    <Answers>
+      <Answer>Танець каченят</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Танець пінгвінів</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Танець булочок</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Танець тістечок</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>Де, якщо вірити приказці, любопитній Варварі ніс відірвали?</Question>
+    <Answers>
+      <Answer>На базарі</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>В магазині</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>В тюрмі</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>В школі</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+  <Question>
+    <Question>З якого м'яса традиційно готується начинка для чебуреків?</Question>
+    <Answers>
+      <Answer>Телятина</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Курятина</Answer>
+      <Res>false</Res>
+    </Answers>
+    <Answers>
+      <Answer>Баранина</Answer>
+      <Res>true</Res>
+    </Answers>
+    <Answers>
+      <Answer>Свинина</Answer>
+      <Res>false</Res>
+    </Answers>
+  </Question>
+</ArrayOfQuestion>

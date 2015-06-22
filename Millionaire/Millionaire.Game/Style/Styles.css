@@ -1,0 +1,233 @@
+﻿
+#scoretable{
+    position:absolute;
+    right:50px;    
+    color:darkblue;
+    font-size:15px;
+    font-weight:bold;
+    bottom:240px;
+    top:5px;
+    height:50%;
+    cursor:none;    
+}
+
+#qtable{
+    width: 100%;    
+    position: absolute;
+    bottom: 10px;      
+}
+
+.orangetext{
+    color:orange;
+}
+
+.currentscore{
+    background-color:orangered;
+}
+
+.messagebox{
+    height: 20px;
+}
+
+.passedscore{
+    background-color:none;
+    color:grey;
+}
+
+.logimg{
+    position:absolute;
+    text-align:center;
+    width:100%;
+}
+
+td{
+    text-align:center;
+}
+
+.leftblock{
+    text-align:right;
+}
+
+.rightblock{
+    text-align:left;
+}
+
+.butA{
+    background-image:url("/Resources/answer_panelA.png");
+    height:53px;
+    width:512px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.butA:hover{
+    background-image:url("/Resources/chosen_panelA.png"); 
+}
+
+.butB{
+    background-image:url("/Resources/answer_panelB.png");
+    height:53px;
+    width:512px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.butB:hover{
+    background-image:url("/Resources/chosen_panelB.png");
+}
+
+.butC{
+    background-image:url("/Resources/answer_panelC.png");
+    height:53px;
+    width:512px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.butC:hover{
+    background-image:url("/Resources/chosen_panelC.png");
+}
+
+.butD{
+    background-image:url("/Resources/answer_panelD.png");
+    height:53px;
+    width:512px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.butD:hover{
+    background-image:url("/Resources/chosen_panelD.png");
+}
+
+.correctA{
+    background-image:url("/Resources/correct_panelA.png");
+    height:53px;
+    width:512px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+}
+
+.correctB{
+    background-image:url("/Resources/correct_panelB.png");
+    height:53px;
+    width:512px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+}
+
+.correctC{
+    background-image:url("/Resources/correct_panelC.png");
+    height:53px;
+    width:512px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+}
+
+.correctD{
+    background-image:url("/Resources/correct_panelD.png");
+    height:53px;
+    width:512px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+}
+
+.help1{
+    background-image:url("/Resources/50.png");
+    height:65px;
+    width:100px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.help1u{
+    background-image:url("/Resources/50used.png");
+    height:65px;
+    width:100px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    text-align:center;
+}
+
+.help2{
+    background-image:url("/Resources/call.png");
+    height:65px;
+    width:100px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.help2u{
+    background-image:url("/Resources/callused.png");
+    height:65px;
+    width:100px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    text-align:center;
+}
+
+.help3{
+    background-image:url("/Resources/hall.png");
+    height:65px;
+    width:100px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.help3u{
+    background-image:url("/Resources/hallused.png");
+    height:65px;
+    width:100px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+    text-align:center;
+}
+
+.questpanel{
+    background-image:url("/Resources/question_panel.png");
+    height:85px;
+    width:1024px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
+}
+
+.popup {
+  border: solid;
+  background-color: yellow;
+  width: 200px;
+}
+
+.content {
+  background-color: grey;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
