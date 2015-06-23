@@ -66,6 +66,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\questions.xml" />
     <Content Include="Global.asax" />
     <Content Include="MainWindow.aspx" />
     <None Include="Resources\answer_panelB.png" />
@@ -94,7 +95,11 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Answers.cs" />
+    <Compile Include="Code\MyAnswer.cs" />
+    <Compile Include="Code\IQuestionRepository.cs" />
+    <Compile Include="Code\Question.cs" />
+    <Compile Include="Code\ViewStateItem.cs" />
+    <Compile Include="Code\XmlQuestionRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -111,10 +116,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Classes\Question.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

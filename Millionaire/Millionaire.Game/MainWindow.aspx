@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" 
-    CodeBehind="MainWindow.aspx.cs" Inherits="Millionaire.Game.MainWindow" %>
+    CodeBehind="MainWindow.aspx.cs" Inherits="Millionaire.Game.MainWindow" EnableViewState="true"%>
 
 <!DOCTYPE html>
 
@@ -51,7 +51,7 @@
             <table id="scoretable" runat="server">
                 <tr>
                     <td><asp:Button  ID="btnHelp1" CssClass="help1" runat="server" BorderStyle="None" OnClick="btnHelp1_Click" /></td>
-                    <td><asp:Button  ID="btnHelp2" CssClass="help2" runat="server" BorderStyle="None" OnClick="btnHelp2_Click"  /></td>
+                    <td><asp:Button  ID="btnHelp2" CssClass="help2" runat="server" BorderStyle="None" OnClick="btnHelp2_Click" EnableViewState="true" /></td>
                     <td><asp:Button  ID="btnHelp3" CssClass="help3" runat="server" BorderStyle="None" OnClick="btnHelp3_Click" /></td>
                 </tr>
                 <tr id="row15" class="orangetext">
@@ -121,7 +121,7 @@
         <div id ="questions">     
         <table id="qtable">
             <tr>              
-                <td colspan="2"><asp:Button CssClass ="questpanel" id="lblQuest" runat="server" BorderStyle="None" OnClick="lblQuest_Click"/></td>
+                <td colspan="2"><asp:Button CssClass ="questpanel" id="lblQuest" runat="server" BorderStyle="None" OnClick="lblQuest_Click" EnableViewState="false"/></td>
             </tr>
             <tr>
                 <td class="leftblock"><asp:Button CssClass="butA" ID="buttonA" runat="server" BorderStyle="None" OnClick="buttonA_Click" Text="A"/></td>

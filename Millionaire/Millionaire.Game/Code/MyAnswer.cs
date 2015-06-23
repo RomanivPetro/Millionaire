@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Millionaire.Game.Classes
+﻿
+namespace Millionaire.Game.Code
 {
-    public class Answers
+    public class MyAnswer
     {
         public string Answer { get; set; }
         public bool Res { get; set; }
 
-        public Answers()
+        public MyAnswer()
         {
             Answer = "";
             Res = false;
         }
 
-        public Answers(string ans, bool res)
+        public MyAnswer(string ans, bool res)
         {
             this.Answer = ans;
             this.Res = res;
