@@ -58,6 +58,36 @@
     <Reference Include="System.Xml.Serialization" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\White_Theme\images\50.png" />
+    <Content Include="App_Themes\White_Theme\images\50used.png" />
+    <Content Include="App_Themes\White_Theme\images\answer_panelA.png" />
+    <Content Include="App_Themes\White_Theme\images\answer_panelB.png" />
+    <Content Include="App_Themes\White_Theme\images\answer_panelC.png" />
+    <Content Include="App_Themes\White_Theme\images\answer_panelD.png" />
+    <Content Include="App_Themes\White_Theme\images\call.png" />
+    <Content Include="App_Themes\White_Theme\images\callused.png" />
+    <Content Include="App_Themes\White_Theme\images\chosen_panelA.png" />
+    <Content Include="App_Themes\White_Theme\images\chosen_panelB.png" />
+    <Content Include="App_Themes\White_Theme\images\chosen_panelC.png" />
+    <Content Include="App_Themes\White_Theme\images\chosen_panelD.png" />
+    <Content Include="App_Themes\White_Theme\images\correct_panelA.png" />
+    <Content Include="App_Themes\White_Theme\images\correct_panelB.png" />
+    <Content Include="App_Themes\White_Theme\images\correct_panelC.png" />
+    <Content Include="App_Themes\White_Theme\images\correct_panelD.png" />
+    <Content Include="App_Themes\White_Theme\images\hall.png" />
+    <Content Include="App_Themes\White_Theme\images\hallused.png" />
+    <Content Include="App_Themes\White_Theme\images\headerimg.jpg" />
+    <Content Include="App_Themes\White_Theme\images\logo.png" />
+    <Content Include="App_Themes\White_Theme\images\question_panel.png" />
+    <Content Include="App_Themes\White_Theme\images\restartbtn.png" />
+    <Content Include="App_Themes\White_Theme\WhiteStyle.css" />
+    <Content Include="Controllers\ScoreTableControl.ascx" />
+    <Content Include="Controllers\SendMailControl.ascx" />
+    <Content Include="SitePage.Master" />
+    <Content Include="PrimaryPage.aspx" />
+    <Content Include="GameplayPage.aspx" />
+    <Content Include="App_Themes\White_Theme\BasicWhite.skin" />
+    <Content Include="GameOverPage.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -68,7 +98,6 @@
   <ItemGroup>
     <Content Include="App_Data\questions.xml" />
     <Content Include="Global.asax" />
-    <Content Include="MainWindow.aspx" />
     <None Include="Resources\answer_panelB.png" />
     <None Include="Resources\answer_panelC.png" />
     <None Include="Resources\answer_panelD.png" />
@@ -91,30 +120,66 @@
     <None Include="Resources\hallused.png" />
     <None Include="Resources\logo.png" />
     <Content Include="Scripts\SendMail.js" />
-    <Content Include="Style\Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\EnumHolder\UsersChoise.cs" />
+    <Compile Include="Code\Keys\SessionKeys.cs" />
     <Compile Include="Code\MyAnswer.cs" />
     <Compile Include="Code\IQuestionRepository.cs" />
     <Compile Include="Code\Question.cs" />
     <Compile Include="Code\ViewStateItem.cs" />
     <Compile Include="Code\XmlQuestionRepository.cs" />
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="MainWindow.aspx.cs">
-      <DependentUpon>MainWindow.aspx</DependentUpon>
+    <Compile Include="Controllers\ScoreTableControl.ascx.cs">
+      <DependentUpon>ScoreTableControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MainWindow.aspx.designer.cs">
-      <DependentUpon>MainWindow.aspx</DependentUpon>
+    <Compile Include="Controllers\ScoreTableControl.ascx.designer.cs">
+      <DependentUpon>ScoreTableControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\SendMailControl.ascx.cs">
+      <DependentUpon>SendMailControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controllers\SendMailControl.ascx.designer.cs">
+      <DependentUpon>SendMailControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SitePage.Master.cs">
+      <DependentUpon>SitePage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SitePage.Master.designer.cs">
+      <DependentUpon>SitePage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PrimaryPage.aspx.cs">
+      <DependentUpon>PrimaryPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrimaryPage.aspx.designer.cs">
+      <DependentUpon>PrimaryPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GameplayPage.aspx.cs">
+      <DependentUpon>GameplayPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GameplayPage.aspx.designer.cs">
+      <DependentUpon>GameplayPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GameOverPage.aspx.cs">
+      <DependentUpon>GameOverPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GameOverPage.aspx.designer.cs">
+      <DependentUpon>GameOverPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

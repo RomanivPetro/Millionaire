@@ -9,7 +9,6 @@ C:\Users\Romaniv\documents\visual studio 2013\Projects\Millionaire\Millionaire.G
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\bin\Millionaire.Game.dll.config
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\bin\Millionaire.Game.dll
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\bin\Millionaire.Game.pdb
-F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Game.csprojResolveAssemblyReference.cache
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Game.Properties.Resources.resources
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Game.csproj.GenerateResource.Cache
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Game.dll

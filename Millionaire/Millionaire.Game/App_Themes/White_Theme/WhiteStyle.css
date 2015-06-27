@@ -1,23 +1,55 @@
-﻿
-#scoretable{
-    position:absolute;
-    right:50px;    
-    color:darkblue;
-    font-size:15px;
-    font-weight:bold;
-    bottom:240px;
-    top:5px;
-    height:50%;
-    cursor:none;    
+﻿body {
+    margin: 0;
 }
 
-#qtable{
+#header {
+    height:35px;   
+    text-align:center;
+    width: 100%;
+    color:#8034ef;
+    background: url("images/headerimg.jpg") center no-repeat;
+    margin: auto;         
+}
+
+#footer {
+    height:20px;
+    border-top:1px solid #808080;
+    border-bottom:1px solid #808080;
+    text-align:center; 
+    width:100%;
+    color:#aa9696;  
+    margin: auto;         
+}
+
+
+#main-content {
+    width:100%;
+    padding: 5px;
+    height:650px;
+    text-align: center;
+    background: url("images/logo.png") center no-repeat;
+    margin: auto;
+}
+
+.scoretable{
+    position:absolute;      
+    color:darkblue;
+    font-size:15px;
+    font-weight:bold;   
+}
+
+#scoretablectrl {
+    text-align: center;                
+    height:50%;
+}
+
+#questionstable{
     width: 100%;    
     position: absolute;
     bottom: 10px;      
 }
 
-.orangetext{
+.orangetextcolor{
     color:orange;
 }
 
@@ -30,7 +62,7 @@
 }
 
 .passedscore{
-    background-color:none;
+    background-color: white;
     color:grey;
 }
 
@@ -53,7 +85,7 @@ td{
 }
 
 .butA{
-    background-image:url("/Resources/answer_panelA.png");
+    background-image:url("images/answer_panelA.png");
     height:53px;
     width:512px;
     background-color: white; 
@@ -64,11 +96,11 @@ td{
 }
 
 .butA:hover{
-    background-image:url("/Resources/chosen_panelA.png"); 
+    background-image:url("images/chosen_panelA.png"); 
 }
 
 .butB{
-    background-image:url("/Resources/answer_panelB.png");
+    background-image:url("images/answer_panelB.png");
     height:53px;
     width:512px;
     background-color: white; 
@@ -79,11 +111,11 @@ td{
 }
 
 .butB:hover{
-    background-image:url("/Resources/chosen_panelB.png");
+    background-image:url("images/chosen_panelB.png");
 }
 
 .butC{
-    background-image:url("/Resources/answer_panelC.png");
+    background-image:url("images/answer_panelC.png");
     height:53px;
     width:512px;
     background-color: white; 
@@ -94,11 +126,11 @@ td{
 }
 
 .butC:hover{
-    background-image:url("/Resources/chosen_panelC.png");
+    background-image:url("images/chosen_panelC.png");
 }
 
 .butD{
-    background-image:url("/Resources/answer_panelD.png");
+    background-image:url("images/answer_panelD.png");
     height:53px;
     width:512px;
     background-color: white; 
@@ -109,11 +141,11 @@ td{
 }
 
 .butD:hover{
-    background-image:url("/Resources/chosen_panelD.png");
+    background-image:url("images/chosen_panelD.png");
 }
 
 .correctA{
-    background-image:url("/Resources/correct_panelA.png");
+    background-image:url("images/correct_panelA.png");
     height:53px;
     width:512px;
     background-color: white; 
@@ -122,7 +154,7 @@ td{
 }
 
 .correctB{
-    background-image:url("/Resources/correct_panelB.png");
+    background-image:url("images/correct_panelB.png");
     height:53px;
     width:512px;
     background-color: white; 
@@ -131,7 +163,7 @@ td{
 }
 
 .correctC{
-    background-image:url("/Resources/correct_panelC.png");
+    background-image:url("images/correct_panelC.png");
     height:53px;
     width:512px;
     background-color: white; 
@@ -140,7 +172,7 @@ td{
 }
 
 .correctD{
-    background-image:url("/Resources/correct_panelD.png");
+    background-image:url("images/correct_panelD.png");
     height:53px;
     width:512px;
     background-color: white; 
@@ -149,7 +181,7 @@ td{
 }
 
 .help1{
-    background-image:url("/Resources/50.png");
+    background-image:url("images/50.png");
     height:65px;
     width:100px;
     background-color: white; 
@@ -160,7 +192,7 @@ td{
 }
 
 .help1u{
-    background-image:url("/Resources/50used.png");
+    background-image:url("images/50used.png");
     height:65px;
     width:100px;
     background-color: white; 
@@ -170,7 +202,7 @@ td{
 }
 
 .help2{
-    background-image:url("/Resources/call.png");
+    background-image:url("images/call.png");
     height:65px;
     width:100px;
     background-color: white; 
@@ -181,7 +213,7 @@ td{
 }
 
 .help2u{
-    background-image:url("/Resources/callused.png");
+    background-image:url("images/callused.png");
     height:65px;
     width:100px;
     background-color: white; 
@@ -191,7 +223,7 @@ td{
 }
 
 .help3{
-    background-image:url("/Resources/hall.png");
+    background-image:url("images/hall.png");
     height:65px;
     width:100px;
     background-color: white; 
@@ -202,7 +234,7 @@ td{
 }
 
 .help3u{
-    background-image:url("/Resources/hallused.png");
+    background-image:url("images/hallused.png");
     height:65px;
     width:100px;
     background-color: white; 
@@ -212,7 +244,7 @@ td{
 }
 
 .questpanel{
-    background-image:url("/Resources/question_panel.png");
+    background-image:url("images/question_panel.png");
     height:85px;
     width:1024px;
     background-color: white; 
@@ -220,14 +252,30 @@ td{
     color:white;
 }
 
-.popup {
-  border: solid;
-  background-color: yellow;
-  width: 200px;
+.gameovermsg {
+    top: 400px;
+    background-image:url("images/question_panel.png");
+    height:85px;
+    width:1024px;
+    background-color: white; 
+    font-size: 20px;
+    color:white;
 }
 
-.content {
-  background-color: grey;
-  filter: alpha(opacity=50);
-  opacity: 0.5;
+.Restart {
+    height: 300px;
+    width: 300px;
+    background-image: url("images/restartbtn.png");
+    background-color: white;
+}
+
+#dMessage {
+    width: 100%;   
+    height: 30%;
+    
+}
+
+#dRestart {
+    width: 100%;
+    text-align: right;    
 }

@@ -30,12 +30,12 @@ namespace Millionaire.Game.Code
 
         public IEnumerable<Question> GetQuestions()
         {
-            IEnumerable<Question> questions;
+            Question[] questions;
             var xmlFormat = new XmlSerializer(typeof(Question[]));
             using (var fstream = new FileStream(this._fileName,
                 FileMode.Open, FileAccess.Read, FileShare.None))
             {
-                questions = (IEnumerable<Question>)xmlFormat.Deserialize(fstream);
+                questions = (Question[])xmlFormat.Deserialize(fstream);
             }
 
             return questions;  
