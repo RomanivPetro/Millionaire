@@ -13,3 +13,4 @@ F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Ga
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Game.csproj.GenerateResource.Cache
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Game.dll
 F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Game.pdb
+F:\Millionaire\Millionaire\Millionaire\Millionaire.Game\obj\Debug\Millionaire.Game.csprojResolveAssemblyReference.cache
